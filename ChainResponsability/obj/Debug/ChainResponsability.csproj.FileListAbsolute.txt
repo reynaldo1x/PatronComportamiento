@@ -1,0 +1,7 @@
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\bin\Debug\ChainResponsability.exe.config
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\bin\Debug\ChainResponsability.exe
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\bin\Debug\ChainResponsability.pdb
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\obj\Debug\ChainResponsability.csprojAssemblyReference.cache
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\obj\Debug\ChainResponsability.csproj.CoreCompileInputs.cache
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\obj\Debug\ChainResponsability.exe
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\ChainResponsability\obj\Debug\ChainResponsability.pdb

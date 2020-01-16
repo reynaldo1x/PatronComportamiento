@@ -1,0 +1,7 @@
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\bin\Debug\State.exe.config
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\bin\Debug\State.exe
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\bin\Debug\State.pdb
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\obj\Debug\State.csprojAssemblyReference.cache
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\obj\Debug\State.csproj.CoreCompileInputs.cache
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\obj\Debug\State.exe
+C:\Users\gaspar.meza\Documents\Visual Studio 2019\Projects\State\obj\Debug\State.pdb

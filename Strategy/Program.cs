@@ -20,12 +20,20 @@ namespace Strategy
             Console.WriteLine("Nombre de la imagen");
             string cNombre = Console.ReadLine();
 
-            //Se crea una estrategia dependiendo del tipo de imagen que se envia
-            var storage = estrategia.crearStrategia(cTipo);
+            //Obtenemos el nombre que le daremos a la imagen
+            estrategia.SetName(cNombre);
 
-            //Se guarda el nombre de la imagen, en este caso se imprime
-            storage.Save(cNombre);
-            
+            //Se crea una estrategia dependiendo del tipo de imagen que se envía
+            if (cTipo.Equals("jpg"))           
+                estrategia.SetContext(new ImagenJPG());
+            if (cTipo.Equals("png"))
+                estrategia.SetContext(new ImagenPNG());
+            if (cTipo.Equals("gif"))
+                estrategia.SetContext(new ImagenGIF());
+
+            //Se guarda la imagen
+            estrategia.SaveImageToStorage();
+
             Console.ReadLine();
         }
     }

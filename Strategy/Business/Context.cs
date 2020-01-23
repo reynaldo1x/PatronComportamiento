@@ -10,28 +10,24 @@ namespace Strategy.Business
 
     public class Context
     {
-        private IStorageImage _storage;
-        public IStorageImage crearStrategia(string store)
-        {
-            switch (store)
-            {
-                case "jpg":
-                    _storage = new ImagenJPG();
-                    break;
-                case "png":
-                    _storage = new ImagenPNG();
-                    break;
-                case "gif":
-                    _storage = new ImagenGIF();
-                    break;
-            }
+        private IStorageImage storage;
+        private string name = string.Empty;
 
-            return _storage;
+        public void SetContext(IStorageImage _storageImage)
+        {
+            storage = _storageImage;
         }
 
-        public void Save(string name)
+        //Obtenemos el nombre de la imagen
+        public void SetName(string _name)
         {
-            _storage.Save(name);
+            name = _name;
         }
+
+        public void SaveImageToStorage()
+        {
+            this.storage.Save(this.name);
+        }
+        
     }
 }
